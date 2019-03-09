@@ -1,0 +1,131 @@
+<html>
+	<head>
+		<title>Web Food'o Amat</title>
+		<link href="menu.css" rel="stylesheet" type="text/css">
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+	<div class="wrapper">
+			<header>
+				<h1>Bakery Shop</h1>
+				<nav>
+					<ul>
+						<li><a href="Coba.html">MENU</a></li>
+						<li><a href="Food.html">FOOD</a></li>
+						<li><a href="drink.html">DRINK</a></li>
+						<li><a href="aboutus.html">ABOUT US</a></li>
+						<li><a href="order.html">ORDER</a></li>
+						
+					</ul>
+				</nav>
+			</header>
+	
+		<table width="942" height="560" align="Left" border="1">
+			<tr bgcolor="#FFFFFF" valign="Top">
+				<td colspan="2"><table align="center" border="0" width="650" cellspacing="7"><br><br><tr>
+				<section class="popular-recipes">
+					<td><h2>Daftar</h2></td>
+					<td align="right"><select name="bhs" style="background:transparent;color:#999999;border:0px;line-height:1.5em;padding:0 7px;">
+					<option>Bahasa Indonesia (Indonesia)</option>
+					<option>English</option>
+					<option>Japanese</option>
+					<option>Spain</option>
+					<option>Germany</option>
+					</section>
+</td>
+				</tr>
+				<tr>
+					<td width="320"><input placeholder="Nama Depan" type="character" name="nmdpn" size="40" style="background:#FFFFF;color:#000;border:0px;line-height:3em;padding:0 10px;"required></input></td>
+					<td width="320" align="right"><input placeholder="Nama Belakang" type="textarea" name="nmdpn" size="40" style="background:#FFFFF;color:#000;border:0px;line-height:3em;padding:0 10px;"required></input></td>
+				</tr>
+				<tr>
+				<td colspan="2" bgcolor="white"> <input type="email" name="email_id" multiple autocomplete="on" placeholder="Masukan email anda" size="68" maxlength="32" style="background:transparent;color:#000;border:0px;line-height:3em;padding:0 10px;" required> </td>			
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="white">
+					Password: <input type="password" value="" id="myInput" style="background:#FFFFF;color:#000;border:0px;line-height:3em;padding:0 10px;"><br><br>
+<input type="checkbox" onclick="myFunction()">Show Password</td>
+
+					<script>
+				function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+</script>
+					</td>
+				
+				</tr>
+				
+				
+
+				
+				<tr>
+				
+					<td colspan="2"><select name="tlp" style="background:#FFFFF;color:#000;border:0px;line-height:1.5em;padding:11.5 10px;">
+					<option>ID +62</option>
+					<option>EN +44</option>
+					<option>JP +81</option><input type="number"  pattern="[0-9]{0,12} title="Masukan 12 angka" name="nmtlp" onkeyup="validangka" style="background:#FFFFF;color:#000;border:0px;line-height:3em;padding:0 10px;" placeholder="Nomor Ponsel" size="40"required><button aria-labelledby="mobile-tooltip-content" style="background:#FFFFFF;color:#000;border:0px;line-height:3em;padding:10 5px;"></button></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2"><input type="textarea" value="Tanggal Lahir" disabled style="background:#f0f0f0;color:#000;border:0px;line-height:3em;padding:0 8px;" size="8">
+					<select name="tnglhr" style="background:transparent;color:#000;border:0px;line-height:1.5em;padding:0 7px;">
+					<option>Tanggal</option>
+					<option>1</option>  <option>2</option> <option>3</option>
+					<option>4</option> <option>5</option> <option>6</option>
+					<option>7</option> <option>8</option> <option>9</option>
+					<option>10</option> <option>11</option> <option>12</option>
+					<option>13</option> <option>14</option> <option>15</option>
+					<option>16</option> <option>17</option> <option>18</option>
+					<option>19</option> <option>20</option> <option>21</option>
+					<option>22</option> <option>23</option> <option>24</option>
+					<option>25</option> <option>26</option> <option>27</option>
+					<option>28</option> <option>29</option> <option>30</option>
+					<option>31</option></select>
+					<select name="blnlhr" style="background:transparent;color:#000;border:0px;line-height:1.5em;padding:0 7px;">
+					<option>Bulan</option>
+					<option>January</option>	
+					<option>February</option>
+					<option>Maret</option>
+					<option>April</option>
+					<option>Mei</option>
+					<option>June</option>
+					<option>July</option>
+					<option>August</option>
+					<option>September</option>
+					<option>October</option>
+					<option>November</option>
+					<option>Desember</option></select>
+					<select name="thnlhr" style="background:transparent;color:#000;border:0px;line-height:1.5em;padding:0 7px;">
+					<option>Tahun</option>
+					<option>1990</option> <option>1991</option> <option>1992</option>
+					<option>1993</option> <option>1994</option> <option>1995</option>
+					<option>1996</option> <option>1997</option> <option>1998</option>
+					<option>1999</option> <option>2000</option> <option>2001</option>
+					<option>2002</option></select></td>
+				</tr>
+				<tr>
+					<td><input type="radio" name="jk" value="Laki-Laki" ><font color="#999999" size="5"> Laki-Laki</font> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="jk" value="Perempuan"><font color="#999999" size="5"> Perempuan</font></td>
+				</tr>
+				<tr>
+					<td colspan="2"><br><font size="3">Saya menyetujui <font color="#1E90FF">Ketentuan warteg online</font> dan <font color	="#1E90FF">Privasi.</font></font></td>
+				</tr>
+				<tr>
+      <td colspan="2"> <input type="submit" value="Submit"> </td>
+		</tr>
+		<tr>
+      <td> <input type="reset" name="reset" value="Reset"> </td>
+		</tr>
+				</td>
+			</tr>
+		</table>
+		
+	</section>
+	</div>

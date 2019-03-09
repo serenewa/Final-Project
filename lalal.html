@@ -1,0 +1,89 @@
+<html><head>
+<script>
+function check() {
+	for(i =0; i <= document.form1.RB.length; i++ ){
+if(document.form1.RB[0].checked==true){
+document.form1.harga.value=100;
+}else if(document.form1.RB[1].checked==true){
+	document.form1.harga.value=400;
+}else if(document.form1.RB[2].checked==true){
+	document.form1.harga.value=500;
+	}
+}
+}
+function check2() {
+	for(i =0; i <= document.form1.RB2.length; i++ ){
+if(document.form1.RB2[0].checked==true){
+document.form1.harga2.value=100;
+}else if(document.form1.RB2[1].checked==true){
+	document.form1.harga2.value=400;
+}else if(document.form1.RB2[2].checked==true){
+	document.form1.harga2.value=500;
+	}
+}
+}
+function total() {
+	var d = document.getElementById("harga").value  ;
+	var c = document.getElementById("jumlah1").value ;
+	document.form1.TotalHrg.value = d * c;
+}
+</script>
+</head>
+<body>
+<form name="form1" action="#" method="POST" onsubmit="validasi">
+<tr>
+<td>Crossaint</td>
+<td>
+<input type="radio" name="RB" onclick="check();" required=""/> Chocolate and orange peel</input>
+<input type="radio" name="RB" onclick="check();" required=""/>Maple Syrup</input>
+<input type="radio" name="RB" onclick="check();" onselect="check();" required=""/>Sausage</input>
+</td></tr>
+<td> Quantity :  </td>
+<td> <input type="text" id="jumlah1" name="Quantity" placeholder="Quantity" onchange="total();" style="height:25px;"required></td> 
+<tr>
+<td>Harga</td>
+<td> <input type="text" name="harga" id="harga1" disabled></td>
+</tr>
+<tr>
+<td> Total Harga</td>
+<td>
+<td> <input type="text" name="TotalHrg" disabled></td>  
+</tr>
+<tr>
+<td>
+<td>Minuman</td>
+<td>
+<input type="radio" name="RB2" onclick="check2();" required=""/> 100ge peel</input>
+<input type="radio" name="RB2" onclick="check2();" required=""/>Mapl1ee Syrup</input>
+<input type="radio" name="RB2" onclick="check2();" required=""/>Sausag12e</input>
+</td></tr>
+<td> Quantity :  </td>
+<td> <input type="text" id="jumlah2" name="Quantity" placeholder="Quantity" onchange="total();" style="height:25px;"required></td> 
+<tr>
+<td>Harga</td>
+<td> <input type="text" name="harga2" id="harga2" disabled></td>
+<td> 
+</tr>
+<tr>
+<td> Total Harga</td>
+<td>
+<td> <input type="text" name="TotalHrg" disabled></td>  
+</tr>
+<tr>
+
+<tr>
+
+					<td colspan="2"> 
+					<input type="submit" class="masuk"  value="Submit">
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<input type="reset" name="reset" class="masuk" value="Reset"> 
+					</td>
+				</tr>
+
+
+</form>
+</body>
+</html>

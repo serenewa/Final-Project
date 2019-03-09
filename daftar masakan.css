@@ -1,0 +1,51 @@
+<h1>Food'o amat</h1>
+<link type="text/css" rel="stylesheet" href="ExternalStylesheet\daftar masakan.css" />
+				<nav>
+					<ul>
+						<li><a href="http://localhost">daftar masakan</a></li>
+						
+					</ul>
+				</nav>
+			</header>
+			<section class="courses">
+				<article>
+					<figure>
+						<img src= "choc-cro.jpg" width="290" height="190"/>
+						<figcaption>Soto Indonesia</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Chocholate Croissant</h2>
+						<h3>Rp.7000</h3>
+					</hgroup>
+					<p>Our Chocolate Croissants are light flaky and filled with gourmet chocolate.</p>
+				</article>    
+				<article>
+					<figure>
+						<img src="http://www.nyekrip.com/wp-content/uploads/2015/custom/images/pecel.jpg" alt="pecel" />
+						<figcaption>Pecel Indonesia</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Masakan Pecel</h2>
+						<h3>Makanan dengan Bumbu Kacang</h3>
+					</hgroup>
+					<p>Pecel adalah makanan yang menggunakan bumbu sambal kacang sebagai bahan utamanya yang dicampur dengan aneka jenis sayuran.</p>
+				</article>    
+			</section>
+			<aside>
+				<section class="popular-recipes">
+					<h2>Masakan Populer</h2>
+					<a href="http://localhost">Sayur Sop</a>
+					<a href="http://localhost">Sayur Asem</a>
+					<a href="http://localhost">Sayur Lodeh</a>
+					<a href="http://localhost">Sayur Bayam</a>
+				</section>
+				<section class="contact-details">
+					<h2>Kontak</h2>
+					<p>Warung Tegal<br />
+						di seluruh indonesia
+				</section>
+			</aside>
+			<footer>
+				&copy; 2015 Warung Tegal
+			</footer>
+		</div><!-- .wrapper -->

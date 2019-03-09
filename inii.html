@@ -1,0 +1,149 @@
+<html>
+	<form>
+		<table width="1349" height="560" align="Left" border="0">
+			<tr bgcolor="white" valign="Top" border="0">
+				<td><table align="center" border="0" cellspacing="13"><br><br><tr>
+				<section>
+				<h2 class="margin">Order</h2>
+				</tr>
+				<tr>
+					<td colspan="2" style="background:#FFFFF;color:#000;border:0px;line-height:2em;padding:0 10px;">Nama:
+					<input placeholder="Enter your name"   pattern="[a-zA-Z]+" type="character" maxlength="35" name="nmdpn" size="40" onkeypress="return event.keycode(nmdpn)" style="background:#FFFFF;color:#000;border:0px;line-height:2em;padding:0 10px;" autofocus required oninvalid="this.setCustomValidity('Input hanya boleh huruf a-z tanpa spasi!')">
+					</input>
+					</td>
+				</tr>
+				<tr>
+				<td colspan="2" style="background:#FFFFF;color:#000;border:0px;line-height:2em;padding:0 10px;">Email:
+				<input type="email" name="email_id" multiple autocomplete="on" placeholder="Enter your email" size="40" maxtlength="32" style="background:transparent;color:#000;border:0px;line-height:2em;padding:0 10px;" required> </td>			
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="white" style="background:#FFFFF;color:#000;border:0px;line-height:1em;padding:0 10px;">
+					Address: <input type="textarea" size="73" placeholder="Enter your address" maxlength="50"id="myInput" style="background:#FFFFF;color:#000;border:0px;line-height:2em;padding:0 10px;"required>
+					</td>
+				
+				</tr>
+				
+				
+
+				
+				<tr>
+				
+					<td colspan="2"><select name="tlp" style="background:#FFFFF;color:#000;border:0px;line-height:1.5em;padding:11.5 10px;">
+					<option>ID +62</option>
+					<option>EN +44</option>
+					<option>JP +81</option><input type="number"  pattern="[0-9]{0,12} title="Masukan 12 angka" name="nmtlp" onkeyup="validangka" style="background:#FFFFF;color:#000;border:0px;line-height:2em;padding:0 10px;" placeholder="Nomor Ponsel" size="40"required><button aria-labelledby="mobile-tooltip-content" style="background:#FFFFFF;color:#000;border:0px;line-height:2em;padding:10 5px;"></button></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2"><input type="textarea" value="Tanggal Lahir" disabled style="background:#f0f0f0;color:#000;border:0px;line-height:2em;padding:0 8px;" size="8">
+					<select name="tnglhr" style="background:transparent;color:#000;border:0px;line-height:1.5em;padding:0 7px;"required>
+					<option>Date</option>
+					<option>1</option>  <option>2</option> <option>3</option>
+					<option>4</option> <option>5</option> <option>6</option>
+					<option>7</option> <option>8</option> <option>9</option>
+					<option>10</option> <option>11</option> <option>12</option>
+					<option>13</option> <option>14</option> <option>15</option>
+					<option>16</option> <option>17</option> <option>18</option>
+					<option>19</option> <option>20</option> <option>21</option>
+					<option>22</option> <option>23</option> <option>24</option>
+					<option>25</option> <option>26</option> <option>27</option>
+					<option>28</option> <option>29</option> <option>30</option>
+					<option>31</option></select>
+					<select name="blnlhr" style="background:transparent;color:#000;border:0px;line-height:1.5em;padding:0 7px;"required>
+					<option>Month</option>
+					<option>January</option>	
+					<option>February</option>
+					<option>Maret</option>
+					<option>April</option>
+					<option>Mei</option>
+					<option>June</option>
+					<option>July</option>
+					<option>August</option>
+					<option>September</option>
+					<option>October</option>
+					<option>November</option>
+					<option>Desember</option></select>
+					<select name="thnlhr" style="background:transparent;color:#000;border:0px;line-height:1.5em;padding:0 7px;"required>
+					<option>Year</option>
+					<option>1990</option> <option>1991</option> <option>1992</option>
+					<option>1993</option> <option>1994</option> <option>1995</option>
+					<option>1996</option> <option>1997</option> <option>1998</option>
+					<option>1999</option> <option>2000</option> <option>2001</option>
+					<option>2002</option></select></td>
+				</tr>
+				<tr>
+<td colspan="2" style="background:#FFFFF;color:#000;border:0px;line-height:2em;padding:0 10px;">Food:
+<select style="background:#FFFFF;color:#000;border:0px;line-height:2em;padding:0 10px;">
+<option value="op1" style="background:#FFFFF;color:#000;border:0px;line-height:2em;padding:0 10px;">Select your food</option>
+<optgroup label="Croissant">
+<option value="op2">Chocolate Croissant</option>
+<option value="op3">Salted Egg Croissant</option>
+<option value="op4">Plain Croissant</option>
+<option value="op5">Smoke Salmon Croissant</option>
+</optgroup>
+<optgroup label="Buns">
+<option value="op6">Coffee Bun</option>
+<option value="op7">Concha Vanilla Bun</option>
+<option value="op8">Taro Bun</option>
+<option value="op9">Ogura Mochi Bun</option>
+</optgroup>
+<optgroup label="Pastry">
+<option value="op10">Chocolate & Orange Peel</option>
+<option value="op11">Maple Syrup</option>
+<option value="op12">Sausage & Sesame</option>
+<option value="op13">Blueberry Fuji</option>
+</optgroup>
+<optgroup label="Toast">
+<option value="op14">Italian Pizza Toast</option>
+<option value="op15">Hokkaido Milk Toast</option>
+<option value="op16">Taro Almond Toast</option>
+<option value="op17">Purpleberry Chia Seed Toast</option>
+</optgroup>
+</select></td>
+<tr>
+<td colspan="2" style="background:#FFFFF;color:#000;border:0px;line-height:2em;padding:0 10px;">Drink:
+<select style="background:#FFFFF;color:#000;border:0px;line-height:2em;padding:0 10px;">
+<option value="op1" style="background:#FFFFF;color:#000;border:0px;line-height:2em;padding:0 10px;">Select your Drink</option><optgroup label="Hot Drink">
+<option value="op19">Caffè Macchiato</option>
+<option value="op20">Black Coffee</option>
+<option value="op21">Espresso Coffee</option>
+<option value="op22">Caffè Latte</option>
+<option value="op23">Cappucino</option>
+<option value="op24">White Coffee</option>
+<option value="op25">Caffè Mocha</option>
+<option value="op26">Caffè Americano</option>
+</optgroup>
+<optgroup label="Iced Drink">
+<option value="op27">Avocado Coffee FLoat</option>
+<option value="op28">Ice Vanilla Latte</option>
+<option value="op29">Caramel Coffee Jelly Frappuccino</option>
+<option value="op30">Iced Green Tea Latte</option>
+<option value="op31">Iced Americano</option>
+<option value="op32">Iced Tea</option>
+<option value="op33">Iced Cappucino</option>
+<option value="op34">Iced Chocolate</option>
+</optgroup>
+</select></td>
+
+				<tr>
+					<td><input type="radio" name="jk" value="Laki-Laki" ><font color="#999999" size="5"> Laki-Laki</font> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="jk" value="Perempuan"><font color="#999999" size="5"> Perempuan</font></td>
+				</tr>
+				<tr>
+					<td colspan="2"> 
+					<input type="submit" class="masuk" value="Submit">
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<input type="reset" name="reset" class="masuk" value="Reset"> 
+					</td>
+				</tr>
+					
+				
+			</table>
+		</form>
+	</section>
+	
+	<footer><center>
+			Copyright &copy; 2015 JEKO Bakery, Healthy Bread in Karawang, Bread Toll Karawang. All Right Reserved.
+			</center></footer>

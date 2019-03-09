@@ -1,0 +1,16 @@
+<tr class="autostyle2">
+<td colspan="2">ORDER</td></tr>
+<tr>
+<td width="100%" colspan="2"></td></tr>
+<tr>
+<td><label for="name">Name:</label></td>
+<td><input type="text" name="usrname" id="name" placeholder="Enter your name" required></td></tr>
+<tr>
+<td><label for="date">Date:</label></td>
+<td><input type="date" name="date" id="date" required></td></tr>
+<tr>
+<td><label for="email">Email ID:</label></td>
+<td><input type="email" name="usrname" id="email" placeholder="Enter your email ID" required></td></tr>
+<tr>
+<td><label for="number">Contact Number:</label></td>
+<td><input type="tel" name="usrtel" id="number" placeholder="Enter your phone number" required></td></tr>

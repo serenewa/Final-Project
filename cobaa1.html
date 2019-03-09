@@ -1,0 +1,27 @@
+<html>
+<head><title> VALIDASI</title></head>
+<body>
+<form method="post" action="">
+Nama :&nbsp;<input type="text" id="nama">
+<input type="button" value="kirim" onClick="validasi()">
+<script type="text/javascript">
+function cekuser(a) {
+valid = /^[A-Za-z]{1,}$/;
+return valid.test(a);
+}
+function validasi(){
+ var nama = document.getElementById("nama").value; 
+ if(nama == ""){
+ alert("nama harus diisi");
+ }else if (!cekuser(nama)) {
+ alert("Isi Dengan Huruh");
+ nama.focus();
+ return false;
+ }else{
+ alert("Sudah Huruf Semua");
+ }
+}
+</script>
+</form>
+</body>
+</html>

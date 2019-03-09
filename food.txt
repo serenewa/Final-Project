@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Web Food'o Amat</title>
+		<link href="css.css" rel="stylesheet" type="text/css">
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+	<div class="wrapper">
+			<header>
+				<h1>Warung Tegal</h1>
+				<nav>
+					<ul>
+						<li><a href="#" class="current">Menu</a></li>
+						<li><a href="Food.html">Food</a></li>
+						<li><a href="#">Drink</a></li>
+						<li><a href="#">All About Us</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section class="courses">
+				<article>
+					<figure>
+						<img src= "bread2.png" width="290" height="190"/>
+						<figcaption>Food</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Chocholate Croissant</h2>
+						<h3>Rp.7000</h3>
+					</hgroup>
+					<p>Our Chocolate Croissants are light flaky and filled with gourmet chocolate.</p>
+				</article>    
+				<article>
+					<figure>
+						<img src= "drink.png" width="290" height="190"/>
+						<figcaption>Drink</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Masakan Pecel</h2>
+						<h3>Makanan dengan Bumbu Kacang</h3>
+					</hgroup>
+					<p>Pecel adalah makanan yang menggunakan bumbu sambal kacang sebagai bahan utamanya yang dicampur dengan aneka jenis sayuran.</p>
+				</article>    
+			</section>
+		<div class="wrapper">
+			<header>
+				<h1>Warung Tegal</h1>
+				<nav>
+					<ul>
+						<li><a href="Coba.html" class="current">Menu</a></li>
+						<li><a href="Food.html">Food</a></li>
+						<li><a href="#">Drink</a></li>
+						<li><a href="#">All About Us</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			</div>
+		</body>
+	</html>
